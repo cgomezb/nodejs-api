@@ -1,0 +1,24 @@
+{
+  "name": "npm-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index $npm_package_config_port",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "config": {
+    "port": "8010"
+  },
+  "author": "Cesar Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "joi": "^17.2.1",
+    "mongoose": "^5.10.6",
+    "morgan": "^1.10.0",
+    "underscore": "^1.11.0"
+  }
+}
